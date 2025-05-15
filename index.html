@@ -190,10 +190,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 // For demo purposes (when API key isn't set), we'll use mock data
                 // In production, replace with real fetch call
-                if (API_KEY === "1459084b4a1da0a19fdd47351409add1") {
-                    // Mock data for demonstration
-                    return getMockWeatherData();
-                }
+                // if (API_KEY === "1459084b4a1da0a19fdd47351409add1") {
+                //     // Mock data for demonstration
+                //     return getMockWeatherData();
+                // }
                 
                 // Real API call
                 const response = await fetch(endpoint);
